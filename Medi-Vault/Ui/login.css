@@ -1,0 +1,64 @@
+/* src/login.css */
+
+/* Full‑screen background image, fully fitted to show entire scene */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background: url('./image.png') center center no-repeat;
+  background-size: contain; /* fit the entire image without cropping */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centered card placed over doctors' hands */
+.login-card {
+  position: absolute;
+  top: 60%;       /* adjust as needed */
+  left: 50%;      /* center horizontally */
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  width: 320px;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.login-card h2 {
+  margin-bottom: 1rem;
+  color: #023382;
+}
+
+/* Description */
+.login-card p {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+/* Connect button */
+.connect-btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #023382;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.connect-btn:hover {
+  background-color: #021c5d;
+  transform: translateY(-2px);
+}
+
+.connect-btn:active {
+  background-color: #02103f;
+  transform: translateY(0);
+}

@@ -1,0 +1,79 @@
+
+.registration-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('./image.png') center center / cover no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+ s
+  .registration-card {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    width: 360px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .registration-card h2 {
+    margin-bottom: 0.5rem;
+    color: #023382;
+  }
+  
+
+  .registration-card p {
+    margin-bottom: 1.5rem;
+    color: #444;
+  }
+  
+
+  .field-group {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+
+  .field-group input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+
+  .action-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #023382;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #021c5d;
+    transform: translateY(-2px);
+  }
+  
+  .action-btn:active {
+    background-color: #02103f;
+    transform: translateY(0);
+  }
+  
+  .action-btn:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+    transform: none;
+  }
+  

@@ -1,0 +1,91 @@
+/* Container for the home screen */
+.home-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+/* Header with logout */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.home-header h2 {
+  margin: 0;
+  color: #023382;
+}
+
+.logout-btn {
+  padding: 0.5rem 1rem;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+/* Shared panel style */
+.panel {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.panel h3 {
+  margin-top: 0;
+  color: #023382;
+}
+
+.panel input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.panel button {
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  background: #023382;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.panel button:hover {
+  background: #021c5d;
+  transform: translateY(-1px);
+}
+
+.panel hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+/* Record display card */
+.record-card {
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+.record-card p {
+  margin: 0.3rem 0;
+}
